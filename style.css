@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap');
+/* -----------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+div[class="row"] {
+    outline: 1px dotted rgb(255, 0, 221);
+}
+
+div[class^="col-"] {
+    outline: 1px dotted rgb(255, 0, 221);
+}
+
+div{
+    outline: 1px dotted rgb(255, 0, 221);
+}*/
+
+/* -----------------------------------------------------------------------------------------------------------------------------*/
+
+:root{
+    --mainBG:rgb(14, 14, 14);
+    --fluoGreen:rgb(10, 204, 10);
+    --articleBG: #282828;
+}
+
+/*Dark mode a tutto ciò che non sia specificato con un colore diverso*/
+html > *{
+    background-color: var(--mainBG);
+}
+
+/*FIX: per impedire che si crei la barra di scorrimento orizzontale sotto */
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.TITOLO{
+    font-family: 'Inconsolata';
+    font-size: 80px;
+    color: var(--fluoGreen);
+    font-weight: 400;
+    text-align: center;
+}
+
+.SOTTOTITOLO{
+    font-family: 'Inconsolata';
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+}
+
+.separator p{
+    text-align: center;
+}
+
+.separator hr{
+    color:white;
+    border: 3px solid white;
+}
+
+
+
+article{
+    background-color: var(--articleBG);
+    border-radius: 10px;
+    padding-inline: 10px;    
+}
+
+.article{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.custom_iframe{
+    display: flex;
+    justify-content: center;
+}
+
+.verticalSpacer_small{
+    height: 10px;
+}
+.verticalSpacer_medium{
+    height: 25px;
+}
+.verticalSpacer_large{
+    height: 40px;
+}
+
+
+.articleTitle{
+    font-family: 'Inconsolata';
+    font-size: 50px;
+    color:rgb(10, 204, 10);
+    font-weight: 350;
+}
+.articleDesc{
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------*/
+
+/* MEDIA QUERY per tutti i telefoni con larghezza al massimo 500px */
+@media (max-width: 500px){
+    .TITOLO{
+        font-family: 'Inconsolata';
+        font-size: 35px;
+        color: var(--fluoGreen);
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .SOTTOTITOLO{
+        font-family: 'Inconsolata';
+        font-size: 30px;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .articleTitle{
+        font-family: 'Inconsolata';
+        font-size: 30px;
+        color:rgb(10, 204, 10);
+        font-weight: 350;
+    }
+    .articleDesc{
+        font-family: 'Inconsolata';
+        font-size: 18px;
+        color:rgb(255, 255, 255);
+        font-weight: 200;
+    }
+
+    .separator{
+        display: flex;
+        align-items: center;
+    }
+    
+    .separator p{
+        text-align: center;
+    }
+    
+    .separator hr{
+        visibility: hidden;
+    }
+}
