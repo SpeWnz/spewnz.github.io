@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1","title":"A python guide to web scraping",
+        "description":"Everything you need to know to get started on your feet with Python Web Scraping, using the BS4 modules.",
+        "link":"https://opensource.com/article/21/9/web-scraping-python-beautiful-soup"
+    },
+    {
+        "id":"2","title":"Powershell course for pentesters",
+        "description":"An in-depth tutorial about the usage of powershell for pentesting purposes.",
+        "link":"https://youtube.com/playlist?list=PLJQHPJLj_SQatUsJy3O4k-VQlllquDmDr"
+    },
+    {
+        "id":"3","title":"Wireless Hacking for beginners",
+        "description":"Learn the basics of wireless pentesting with this guide.",
+        "link":"https://www.reddit.com/r/FreeITCourses/comments/sh24tp/ethical_hacking_for_beginners_hacking_wireless/?utm_medium=android_app&utm_source=share"
+    },
+    {
+        "id":"4","title":"Free programming E-Books",
+        "description":"Check out these awesome free e-books covering a wide variety of Computer Science topics. There are about 50 e-books worth of programming and scripting knowledge, written by professionals.",
+        "link":"https://books.goalkicker.com/"
+    } 
+]

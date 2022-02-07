@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap');
-/* -----------------------------------------------------------------------------------------------------------------------------*/
-
-/*
-div[class="row"] {
-    outline: 1px dotted rgb(255, 0, 221);
-}
-
-div[class^="col-"] {
-    outline: 1px dotted rgb(255, 0, 221);
-}
-
-div{
-    outline: 1px dotted rgb(255, 0, 221);
-}*/
-
-/* -----------------------------------------------------------------------------------------------------------------------------*/
 
 :root{
     --mainBG:rgb(14, 14, 14);
@@ -25,7 +9,7 @@ div{
 }
 
 /*Dark mode a tutto ciò che non sia specificato con un colore diverso*/
-html > *{
+body > *{
     background-color: var(--mainBG);
 }
 
@@ -33,51 +17,6 @@ html > *{
 .row{
     margin-left: 0;
     margin-right: 0;
-}
-
-#mainMenu
-{
-    padding-left: 0;
-    margin-top: 0px;
-    position: fixed;
-}
-
-.custom_ul {
-    list-style-type: none;
-    padding-left: 0;
-
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-}
-
-.custom_li 
-{
-    border-style: solid;
-    border-color: gray;
-
-    border-top-width: 0;
-    border-bottom-width: 1px;
-    border-left-width: 0;
-    border-right-width: 0;
-
-    display: table-cell;
-
-    text-align: center;
-
-    font-family: 'Inconsolata';
-    font-size: 20px;
-    background-color: var(--mainBG);
-}
-
-.custom_li a
-{
-    color: var(--fluoGreen);
-}
-
-.titolo-sottotitolo
-{
-    padding-top: 50px;
 }
 
 .TITOLO{
@@ -94,13 +33,6 @@ html > *{
     color: white;
     font-weight: 400;
     text-align: center;
-}
-
-#htbBadge
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .separator{
@@ -130,7 +62,11 @@ article{
     padding-bottom: 10px;
 }
 
-.repoLink{
+.titleAndLink{
+    display: flex;
+    justify-content: space-between;
+}
+.titleAndLink a{
     align-self: center;
     font-family: 'Inconsolata';
     font-size: 18px;
@@ -138,7 +74,9 @@ article{
     font-weight: 550;  
     padding-bottom: 5px;  
 }
-
+.titleAndLink a::after{
+    content: attr(href);
+}
 
 
 .custom_iframe{
@@ -159,7 +97,7 @@ article{
 
 .articleTitle{
     font-family: 'Inconsolata';
-    font-size: 40px;
+    font-size: 50px;
     color:rgb(10, 204, 10);
     font-weight: 350;
 }
@@ -174,45 +112,6 @@ article{
 
 /* MEDIA QUERY per tutti i telefoni con larghezza al massimo 500px */
 @media (max-width: 900px){
-    #mainMenu
-    {
-        padding-left: 0;
-        margin-top: 0px;
-        position: fixed;
-    }
-
-    .custom_ul 
-    {
-        list-style-type: none;
-        padding-left: 0;
-
-        display: table;
-        width: 100%;
-        table-layout: fixed;
-    }
-
-    .custom_li
-    {
-        border-style: solid;
-        border-color: gray;
-
-        border-top-width: 0;
-        border-bottom-width: 1px;
-        border-left-width: 0;
-        border-right-width: 0;
-
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-    }
-
-    .titolo-sottotitolo
-    {
-        padding-top: 80px;
-    }
-
-
-    
     .TITOLO{
         font-family: 'Inconsolata';
         font-size: 35px;
@@ -255,8 +154,10 @@ article{
         visibility: hidden;
     }
 
-    
-    .repoLink{
+    .titleAndLink a::after{
+        content: "Link to Repo";
+    }
+    .titleAndLink a{
         padding-bottom: 10px;  
     }
 }

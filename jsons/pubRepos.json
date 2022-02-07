@@ -1,0 +1,11 @@
+[
+    {
+        "id":"1","title":"Fuxploider",
+        "description":"Fuxploider is a tool used to scan for file upload vulnerabilities.","link":"https://github.com/almandin/fuxploider"
+    },
+    {
+        "id":"2","title":"RustScan",
+        "description":"RustScan is a lightweight tool used to scan ports, similarly to nmap, written in Rust.",
+        "link":"https://github.com/RustScan/RustScan"
+    }
+]

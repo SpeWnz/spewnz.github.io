@@ -1,0 +1,12 @@
+[
+    {
+        "id":"1","title":"HTTP2 - The sequel is always worse",
+        "description":"A brief showcase and description about a known http2 vulnerabilty.",
+        "link":"https://portswigger.net/research/http2"
+    },    
+    {
+        "id":"2","title":"iPhone 13, Windows 10, Chrome, all hacked",
+        "description":"How these cybersecurity researchers did it at Tianfu Cup.",
+        "link":"https://www.techworm.net/2021/10/iphone-13-pro-windows-hacked-tianfu-cup.html?fbclid=IwAR0oI6A2SKYNYbgjnNNwj1om7DtbxQLY6ZTukvNrYSiTYXIcwaORWn5XQFE"
+    }   
+]

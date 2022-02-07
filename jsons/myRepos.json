@@ -1,0 +1,16 @@
+[
+    {
+        "id":"1",
+        "title":"ZHOR Modules",
+        "description":
+        "ZHOR_Modules is a multi-purpose collection of modules for Python to make programming easier. We often use the same programming patterns, so instead of repeating and re-writing the same things over and over, we've figured that we might aswell just wrap 'em all toghether in a nice bundle. ZHOR_Modules is the foundation of almost all the projects we work on. So if we publish something out, chances are you will be required to install this repo first.",
+        "link":"https://github.com/SpeWnz/ZHOR_Modules"
+    },
+    {
+        "id":"2",
+        "title":"IFCIT",
+        "description":
+        "IFCIT stands for Input Form Command Injection Tester. Man that's a mouthful. As the name suggests, IFCIT is a tool used to scan and evaluate command injection vulnerabilities on websites. It is currently a private repository, as it is still under construction.",
+        "link":"https://github.com/SpeWnz/IFCIT"
+    }
+]
