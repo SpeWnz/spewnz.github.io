@@ -10,7 +10,8 @@
         "id":"2",
         "title":"IFCIT",
         "description":
-        "IFCIT stands for Input Form Command Injection Tester. Man that's a mouthful. As the name suggests, IFCIT is a tool used to scan and evaluate command injection vulnerabilities on websites. It is currently a private repository, as it is still under construction.",
-        "link":"https://github.com/SpeWnz/IFCIT"
+        "IFCIT stands for Input Form Command Injection Tester. Man that's a mouthful. As the name suggests, IFCIT is a tool used to scan and evaluate command injection vulnerabilities on websites. It is currently under construction, and its documentation is still to be finished before release.",
+        "link":"https://github.com/SpeWnz/IFCIT",
+        "isPrivate":"true"
     }
 ]

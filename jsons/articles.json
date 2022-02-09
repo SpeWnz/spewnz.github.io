@@ -8,5 +8,10 @@
         "id":"2","title":"iPhone 13, Windows 10, Chrome, all hacked",
         "description":"How these cybersecurity researchers did it at Tianfu Cup.",
         "link":"https://www.techworm.net/2021/10/iphone-13-pro-windows-hacked-tianfu-cup.html?fbclid=IwAR0oI6A2SKYNYbgjnNNwj1om7DtbxQLY6ZTukvNrYSiTYXIcwaORWn5XQFE"
-    }   
+    },
+    {
+        "id":"3","title":"Python2 vs Python3 in cybersecurity",
+        "description":"What are the main differences between Python2 and Python3? Which one should you use, and why? How will the versions affect your possibilities when developing exploitation scripts? Why is Python2 still used today? This video will cover all of these questions, and many more.",
+        "link":"https://www.youtube.com/watch?v=FxNS-zSS7MQ"
+    }
 ]

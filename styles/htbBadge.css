@@ -1,0 +1,27 @@
+#htbBadge
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#htbBadge #leftContainer{
+    padding-right: 5%;
+}
+
+#htbBadge #rightContainer
+{
+    padding-left: 5%;
+}
+
+@media (max-width: 500px){
+
+    #htbBadge #leftContainer{
+        padding-right: 0px;
+    }
+    
+    #htbBadge #rightContainer
+    {
+        padding-left: 0px;
+    }
+}

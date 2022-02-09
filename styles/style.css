@@ -39,7 +39,8 @@ html > *{
 {
     padding-left: 0;
     margin-top: 0px;
-    position: fixed;
+    position: fixed;    
+    z-index: 10;
 }
 
 .custom_ul {
@@ -96,12 +97,7 @@ html > *{
     text-align: center;
 }
 
-#htbBadge
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .separator{
     display: flex;
@@ -130,7 +126,7 @@ article{
     padding-bottom: 10px;
 }
 
-.repoLink{
+.resourceLink{
     align-self: center;
     font-family: 'Inconsolata';
     font-size: 18px;
@@ -170,10 +166,23 @@ article{
     font-weight: 200;
 }
 
+
+.privateContentLabel b
+{
+    font-weight: 400;
+}
+
+.privateContentLabel p
+{
+    color: red;
+}
+
+
+
 /* -----------------------------------------------------------------------------------------------------------------------------*/
 
 /* MEDIA QUERY per tutti i telefoni con larghezza al massimo 500px */
-@media (max-width: 900px){
+@media (max-width: 500px){
     #mainMenu
     {
         padding-left: 0;
@@ -256,7 +265,7 @@ article{
     }
 
     
-    .repoLink{
+    .resourceLink{
         padding-bottom: 10px;  
     }
 }

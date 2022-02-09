@@ -5,3 +5,4 @@ const ID_PREFIX = "articleNo";
 const LINK_TEXT = "Link to the article";
 
 window.addEventListener('load',fillContainer(JSON_PATH,CONTAINER_ID,ID_PREFIX,LINK_TEXT));
+

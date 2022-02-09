@@ -18,5 +18,10 @@
         "id":"4","title":"Free programming E-Books",
         "description":"Check out these awesome free e-books covering a wide variety of Computer Science topics. There are about 50 e-books worth of programming and scripting knowledge, written by professionals.",
         "link":"https://books.goalkicker.com/"
+    },
+    {
+        "id":"5","title":"Responsive Youtube iFrames",
+        "description":"Atleast once in your life you'll want to embed a youtube video or a youtube playlist on a webpage. You will soon notice that something feels off with the embedded iFrame. That's right, there's no direct way to make it responsive. Your iFrame will look wonky and wrong sometimes, especially on mobile. In this article you will learn how to fix this problem by using a css workaround",
+        "link":"https://flaviocopes.com/responsive-youtube-videos/"
     } 
 ]

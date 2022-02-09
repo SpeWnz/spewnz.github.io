@@ -1,0 +1,34 @@
+.outer-embed-container
+{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.inner-embed-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+    z-index: 0;
+}
+
+.inner-embed-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.inner-embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 900px)
+{
+    .outer-embed-container
+    {
+        max-width: 100%;
+    }
+}
