@@ -13,5 +13,10 @@
         "id":"3","title":"Python2 vs Python3 in cybersecurity",
         "description":"What are the main differences between Python2 and Python3? Which one should you use, and why? How will the versions affect your possibilities when developing exploitation scripts? Why is Python2 still used today? This video will cover all of these questions, and many more.",
         "link":"https://www.youtube.com/watch?v=FxNS-zSS7MQ"
+    },
+    {
+        "id":"4","title":"25 malicious JS modules",
+        "description":"A batch of 25 malicious JavaScript libraries have made their way to the official NPM package registry with the goal of stealing Discord tokens and environment variables from compromised systems. This article will explain in detail why you should be worried and what are the modules you have to stay away from.",
+        "link":"https://thehackernews.com/2022/02/25-malicious-javascript-libraries.html?m=1"
     }
 ]

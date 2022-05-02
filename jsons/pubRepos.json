@@ -1,11 +1,32 @@
 [
     {
-        "id":"1","title":"Fuxploider",
-        "description":"Fuxploider is a tool used to scan for file upload vulnerabilities.","link":"https://github.com/almandin/fuxploider"
+        "id":1,"title":"Fuxploider",
+        "description":"Fuxploider is a tool used to scan for file upload vulnerabilities.",
+        "link":"https://github.com/almandin/fuxploider"
     },
     {
-        "id":"2","title":"RustScan",
+        "id":2,"title":"RustScan",
         "description":"RustScan is a lightweight tool used to scan ports, similarly to nmap, written in Rust.",
         "link":"https://github.com/RustScan/RustScan"
+    },
+    {
+        "id":3,"title":"HoundSniff",
+        "description":"HoundSniff is a minimal hash identification tool written in C that uses a database to compare a hash's features to characteristics of other common hashing algorithm results. It also prints out the percentages of likelihood for each hashing alogirthm to be the one that produced the hash based on their popularity.",
+        "link":"https://github.com/MichaelDim02/houndsniff"
+    },
+    {
+        "id":4,"title":"Red Mail",
+        "description":"Red Mail is an advanced email sender library. It makes sending emails trivial and has a lot of advanced features such as attachments, templating, embedded images, prefitted tables, and more.",
+        "link":"https://github.com/Miksus/red-mail"
+    },
+    {
+        "id:":5, "title": "Unredacter",
+        "description":"Shows you why you should never ever ever use pixelation as a redaction technique. Unredacter is a nodeJS tool that allows you to extract text from blurred text, by means of \"cracking\", so to speak.",
+        "link":"https://github.com/BishopFox/unredacter"
+    },
+    {
+        "id:":6, "title": "Requestium",
+        "description":"Selenium Webdriver is an awesome automation tool, but it lacks some features that Python's Request library has. And the otherway around is also true because some times you'll need authenticated and cookie-dependant requests to be done. And doing that by hand with the Requests library alone is a headache. So here comes \"Requestium\". An awesome repo made just for that. As the name suggests, Requestium is a merge between Selenium and Requests. You can easily exchange cookies and session data between Requests and Selenium Webdriver, and viceversa. ",
+        "link":"https://github.com/tryolabs/requestium"
     }
 ]

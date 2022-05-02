@@ -23,5 +23,20 @@
         "id":"5","title":"Responsive Youtube iFrames",
         "description":"Atleast once in your life you'll want to embed a youtube video or a youtube playlist on a webpage. You will soon notice that something feels off with the embedded iFrame. That's right, there's no direct way to make it responsive. Your iFrame will look wonky and wrong sometimes, especially on mobile. In this article you will learn how to fix this problem by using a css workaround",
         "link":"https://flaviocopes.com/responsive-youtube-videos/"
-    } 
+    },
+    {
+        "id":"6","title":"Fuzzing 101",
+        "description":"A repository with exercises to help you practice and learn about fuzzing, with 10 real targets.",
+        "link":"https://github.com/antonio-morales/Fuzzing101"
+    },
+    {
+        "id":"7","title":"LFI & RFI: A comprehensive guide",
+        "description":"Learn the basics and not-so-basic aspects of LFI and RFI vulnerabilities in this detailed guide.",
+        "link":"https://techsphinx.com/hacking/file-inclusion-vulnerability-full-guide/"
+    },
+    {
+        "id":"8","title":"FFMPEG - Merge audio and video from different video sources",
+        "description":"Say you have two videos, V1 and V2. I found myself in situations where i want the audio source from V1 and the video source from V2, or viceversa. It was quite a pain to get the output video as i desired, so here's (probably) the best explaination out there on how to do it.",
+        "link":"https://stackoverflow.com/questions/12938581/ffmpeg-mux-video-and-audio-from-another-video-mapping-issue"
+    }
 ]
