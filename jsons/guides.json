@@ -38,5 +38,15 @@
         "id":"8","title":"FFMPEG - Merge audio and video from different video sources",
         "description":"Say you have two videos, V1 and V2. I found myself in situations where i want the audio source from V1 and the video source from V2, or viceversa. It was quite a pain to get the output video as i desired, so here's (probably) the best explaination out there on how to do it.",
         "link":"https://stackoverflow.com/questions/12938581/ffmpeg-mux-video-and-audio-from-another-video-mapping-issue"
+    },
+    {
+        "id":"9","title":"Blue Team Training",
+        "description":"A guide to give you an introduction and lots of free information to prepare you to enter the world of Blue Team.",
+        "link":"https://www.reddit.com/r/FreeITCourses/comments/udgm2g/free_training_2022_blue_team/?utm_medium=android_app&utm_source=share"
+    },
+    {
+        "id":"10","title":"Packet tracer labs",
+        "description":"Practice your network security skills and enrich your knowledge in networking with these free packet tracer labs.",
+        "link":"https://www.reddit.com/r/FreeITCourses/comments/udn688/practical_networking_packet_tracer_labs/?utm_medium=android_app&utm_source=share"
     }
 ]
