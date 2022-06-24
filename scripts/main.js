@@ -140,4 +140,27 @@ async function fillContainer(JSON_FILE_PATH,CONTAINER_ID,idPrefix, linkText=null
     });
 }
 
+async function aboutMe()
+{
+	const aboutMePath = "../other/aboutMe.txt"
+	const res = await fetch(aboutMePath);
+    const data = await res.text();
+
+	const container = document.getElementById("ABOUT_ME");
+
+	const p_Title = document.createElement('p');
+	const p_Desc = document.createElement('p');
+
+	p_Title.classList.add('articleTitle');
+	p_Desc.classList.add('articleDesc');
+
+	p_Title.textContent = "About me:"
+	p_Desc.textContent = data;
+	p_Desc.innerHTML = p_Desc.innerHTML.replace(/\n/g,"<br>\n"); // per mantenere le newlines
+
+	container.prepend(p_Desc);
+	container.prepend(p_Title);
+}
+
+aboutMe();
 export {fillContainer};

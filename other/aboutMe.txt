@@ -1,0 +1,6 @@
+Currently, an undergrad Computer Science student at Tor Vergata University.
+In the future, hopefully, a red-teamer / pentester / cybersecurity researcher. 
+
+I have a strong passion for anything related to offensive security, with a focus on Wireless Security.
+
+Often I'm lazy, which means I absolutely love to build tools and scripts to automate anything that I otherwise would have to do manually, which comes very handy in scenarios like pentesting.

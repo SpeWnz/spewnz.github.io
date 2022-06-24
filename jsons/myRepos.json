@@ -13,5 +13,13 @@
         "IFCIT stands for Input Form Command Injection Tester. Man that's a mouthful. As the name suggests, IFCIT is a tool used to scan and evaluate command injection vulnerabilities on websites. It is currently under construction, and its documentation is still to be finished before release.",
         "link":"https://github.com/SpeWnz/IFCIT",
         "isPrivate":"true"
+    },
+    {
+        "id":"3",
+        "title":"Wireless PT Toolbox",
+        "description":
+        "This repo is a collections of tools I made to automate and ease the workflow of Wireless Pentesting. It is currently under construction, and its documentation is still to be finished before release.",
+        "link":"https://github.com/SpeWnz/WPT",
+        "isPrivate":"true"
     }
 ]
