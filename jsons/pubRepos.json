@@ -28,5 +28,11 @@
         "id:":6, "title": "Requestium",
         "description":"Selenium Webdriver is an awesome automation tool, but it lacks some features that Python's Request library has. And the otherway around is also true because some times you'll need authenticated and cookie-dependant requests to be done. And doing that by hand with the Requests library alone is a headache. So here comes \"Requestium\". An awesome repo made just for that. As the name suggests, Requestium is a merge between Selenium and Requests. You can easily exchange cookies and session data between Requests and Selenium Webdriver, and viceversa. ",
         "link":"https://github.com/tryolabs/requestium"
+    },
+    {
+        "id:":7, "title": "JFScan",
+        "description":"The JFScan is a wrapper around a super-fast port scanner Masscan. It's designed to simplify work when scanning for open ports on targets in a variety of formats. The JFScan accepts a target in the following forms: URL, domain, or IP (including CIDR). You can specify a file with targets using argument or use stdin. The JFScan also allows you to output only the results and chain it with other tools like Nuclei. The domain:port output of JFScan is crucial if you want to discover vulnerabilities in web applications as the virtual host decides which content will be served. Finally, it can scan discovered ports with Nmap. You can also define custom options and use Nmap's amazing scripting capabilities.",
+        "link":"https://github.com/blackhatethicalhacking/jfscan"
     }
+    
 ]
