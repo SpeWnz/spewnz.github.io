@@ -8,6 +8,13 @@
     },
     {
         "id":"2",
+        "title":"GAF",
+        "description":
+        "GAF stands for Grab All (the) Files. GAF is a tool that will analyze a web page and extract every reference and link to a resource. Then, if wanted, GAF will download them all to take a look at them locally. GAF supports excention filtering, text filtering (for getting specific file names), and multi-threaded downloading.",
+        "link":"https://github.com/SpeWnz/GAF"
+    },
+    {
+        "id":"3",
         "title":"IFCIT",
         "description":
         "IFCIT stands for Input Form Command Injection Tester. Man that's a mouthful. As the name suggests, IFCIT is a tool used to scan and evaluate command injection vulnerabilities on websites. It is currently under construction, and its documentation is still to be finished before release.",
@@ -15,7 +22,7 @@
         "isPrivate":"true"
     },
     {
-        "id":"3",
+        "id":"4",
         "title":"NO-FI Zone",
         "description":
         "This repo is a collections of tools I made to automate and ease the workflow of Wireless Pentesting. It is currently under construction, and its documentation is still to be finished before release.",
@@ -23,7 +30,7 @@
         "isPrivate":"true"
     },
     {
-        "id":"4",
+        "id":"5",
         "title":"Deployable FTP",
         "description":
         "A handy tool to transfer and dump multiple files and folders via FTP on (and to) a remote machine. Very useful in CTFs and pentesting. As the name suggests, it is designed to be easly deployable to remote machines, by having just one file to handle the whole process.",
@@ -31,7 +38,7 @@
         "isPrivate":"true"
     },
     {
-        "id":"5",
+        "id":"6",
         "title":"SJC",
         "description":"SJC (\"SpeWnz\" JumpCutter) is a heavily modified and improved version of the original Jumpcutter by Carykh, featuring several fixes and additional features. Given one or multiple videos, SJC will cut out all the silent parts, resulting in a much shorter, dense, and interesting video to watch. This is especially useful in university lectures.",
         "link":"https://github.com/SpeWnz/SJC",
