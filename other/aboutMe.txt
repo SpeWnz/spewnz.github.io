@@ -1,5 +1,5 @@
-Currently, an undergrad Computer Science student at Tor Vergata University.
-In the future, hopefully, a red-teamer / pentester / cybersecurity researcher. 
+> Undergrad Computer Science student at Tor Vergata University.
+> Red Teamer / Pentester @ PwC Italy
 
 I have a strong passion for anything related to offensive security, with (currently) a focus on Wireless Security and web application security.
 
