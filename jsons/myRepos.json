@@ -43,5 +43,12 @@
         "description":"SJC (\"SpeWnz\" JumpCutter) is a heavily modified and improved version of the original Jumpcutter by Carykh, featuring several fixes and additional features. Given one or multiple videos, SJC will cut out all the silent parts, resulting in a much shorter, dense, and interesting video to watch. This is especially useful in university lectures.",
         "link":"https://github.com/SpeWnz/SJC",
         "isPrivate":"true"
+    },
+    {
+        "id":"7",
+        "title":"Distributed Airolib-ng",
+        "description":"A \"distributed system\" approach to airolib-ng, which will help pre-compute PMKs much faster than with a single client.",
+        "link":"https://github.com/SpeWnz/distributed-airolib-ng",
+        "isPrivate":"true"
     }
 ]
