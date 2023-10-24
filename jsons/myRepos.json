@@ -48,7 +48,6 @@
         "id":"7",
         "title":"Distributed Airolib-ng",
         "description":"A \"distributed system\" approach to airolib-ng, which will help pre-compute PMKs much faster than with a single client.",
-        "link":"https://github.com/SpeWnz/distributed-airolib-ng",
-        "isPrivate":"true"
+        "link":"https://github.com/SpeWnz/distributed-airolib-ng"
     }
 ]
